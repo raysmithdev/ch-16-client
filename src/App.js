@@ -8,6 +8,7 @@ class App extends Component {
 
   componentDidMount() {
     this.props.dispatch(fetchUsers())
+    
   }
 
   render() {
